@@ -1,7 +1,7 @@
 # iOS-Swift-SQLite-DBHandler
 A swift file to handle SQLITE local database functionalities like CREATE, INSERT, UPDATE and DELETE 
 
-Remove the below code before using from init method. It is a sample code on how to access the methods in this file 
+Remove the below code before using from **init()** method. It is a sample code on how to access the methods in this file 
 
   let result = insert(records: DBConstants.insert_data, tableName: DBConstants.USER_TABLE)
         print("Insert result = " + String(result))
